@@ -1,0 +1,109 @@
+/* This is the universal styles for all pages */
+body {
+	font-family: helvetica, sans-serif;
+	width: 900px;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	position: relative;
+	bottom: -10px;
+	margin-bottom: -20px
+}
+
+.pics {
+	padding: 10px;
+	text-align: center;
+}
+
+.video {
+	padding: 10px;
+	text-align: center;
+}
+
+.container {
+	color: #FFFAFA;
+	border: 5px double #9400D3;
+	background-color: #DB7093;
+}
+
+/* This is the styling for the index page */
+.sammie_pic {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 1;
+}
+.index_header {
+	color: #FFFAFA;
+	border: 5px double #9400D3;
+	background-color: #DB7093;
+	text-align: center;
+}
+
+.arizona_state {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.cali_state {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+article {
+	color: #FFFAFA;
+	border: 5px double #9400D3;
+	background-color: #DB7093;
+	float: left;
+	padding: 2px;
+	width:436px;
+}
+h3.a {
+	text-align: center;
+}
+/* This is the styling for the Arizona page */
+
+.arizona_header {
+	position: relative;
+	text-align: center;
+}
+
+.arizona_title {
+	position: absolute;
+	font-size: 40px;
+	left: 0%;
+	top: 50%;
+	width: 100%;
+}
+
+.arizona_pic {
+	width: 100%;
+	height: auto;
+	opacity: .5;
+}
+
+h3.b {
+	text-align: center;
+}
+
+/* This is the styling for the California page */
+
+.cali_header {
+	position: relative;
+	text-align: center;
+}
+
+.cali_title {
+	position: absolute;
+	font-size: 40px;
+	left: 0%;
+	top: 50%;
+	width: 100%;
+}
+
+.cali_pic {
+	width: 100%;
+	height: auto;
+	opacity: .5;
